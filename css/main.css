@@ -379,7 +379,7 @@ a {
 
 .contact_form input[type="submit"]:hover {
    background: var(--clr-black);
-   transform: scale(1.05);
+   transform: scale(1.03);
 }
 
 .contact_map {
@@ -390,4 +390,20 @@ a {
    width: 100%;
    border: 0;
    height: 650px;
+}
+
+
+/*=============================================
+         footer area
+================================================*/
+#footer_area {
+   background: var(--clr-primary);
+   padding: 24px 0;
+   text-align: center;
+}
+
+#footer_area p {
+   margin: 0;
+   color: #fff;
+   letter-spacing: 1px;
 }
