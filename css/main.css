@@ -241,7 +241,7 @@ a {
 
 #main_menu a:hover {
    background: var(--clr-primary);
-   color: #fff;
+   color: var(--clr-white);
 }
 
 /*=============================================
@@ -312,4 +312,82 @@ a {
    color: var(--clr-primary);
    font-size: 48px;
    padding: 35px 0 15px;
+}
+
+/*=============================================
+         contact area
+================================================*/
+#contact_area {
+   padding: var(--padding-lg);
+   background: var(--clr-primary-light);
+}
+
+#contact_area .container.title {
+   display: block;
+   margin-bottom: 32px;
+   text-align: center;
+   letter-spacing: 1px;
+}
+
+#contact_area h3 {
+   font-size: 35px;
+}
+
+#contact_area .container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.contact_form {
+   flex-basis: 48%;
+}
+
+.contact_form label {
+   display: block;
+   margin-bottom: 8px;
+   letter-spacing: 1px;
+}
+
+.contact_form input,
+.contact_form textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ddd;
+   margin-bottom: 16px;
+   font-family: var(--ff-body);
+   font-size: 16px;
+   letter-spacing: 1px;
+}
+
+.contact_form textarea {
+   min-height: 150px;
+   letter-spacing: 1px;
+}
+
+.contact_form input[type="submit"] {
+   width: 240px;
+   background: var(--clr-primary);
+   border: 0;
+   color: var(--clr-white);
+   font-size: 16px;
+   letter-spacing: 1px;
+   padding: 15px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.contact_form input[type="submit"]:hover {
+   background: var(--clr-black);
+   transform: scale(1.05);
+}
+
+.contact_map {
+   flex-basis: 50%;
+}
+
+.contact_map iframe {
+   width: 100%;
+   border: 0;
+   height: 650px;
 }
