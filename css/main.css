@@ -27,6 +27,7 @@
 ============================================= */
 :root {
    --clr-primary: #5f27cd;
+   --clr-primary-nav: #7a4ed3;
    --clr-primary-light: #f4eeff;
    --clr-secondary: #6c63ff;
    --clr-black: #262626;
@@ -121,39 +122,36 @@ a {
    position: fixed;
    top: 0;
    right: 0;
-   
-   /* font-size: 48px;
-   text-align: center; */
 
-
-      display: none;
+   display: none;
 }
 
 .slicknav_menu .slicknav_menutxt {
-   /* font-size: 48px;
-   text-align: center; */
-
-      display: none;
+   display: none;
 }
 
 .slicknav_menu .slicknav_icon {
    margin: 0;
-   /* font-size: 24px !important; */
+   background-color: var(--clr-primary) !important;
+
 }
 
 .slicknav_btn {
-   background-color: var(--clr-black);
-   background-color: var(--clr-primary);
+   background-color: var(--clr-primary) !important;
 }
 
 .slicknav_nav {
    position: fixed;
    width: 60%;
-   height: 100%;
+   height: 45%;
    left: 0;
    top: 0;
-   background: var(--clr-black);
-   background: var(--clr-primary);
+   /* background: var(--clr-primary) !important; */
+   background: var(--clr-primary-nav) !important;
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
 }
 
 /*=============================================
