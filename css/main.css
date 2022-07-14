@@ -109,6 +109,55 @@ a {
 
 .btn:hover {
    background: var(--clr-black);
+   transform: scale(1.03);
+}
+
+/*=============================================
+         mobile menu
+================================================*/
+.slicknav_menu {
+   background: none;
+   padding: 0px;
+   position: fixed;
+   top: 0;
+   right: 0;
+   
+   /* font-size: 48px;
+   text-align: center; */
+
+
+      display: none;
+}
+
+.slicknav_menu .slicknav_menutxt {
+   /* font-size: 48px;
+   text-align: center; */
+
+      display: none;
+}
+
+.slicknav_menu .slicknav_icon {
+   margin: 0;
+   /* font-size: 24px !important; */
+}
+
+.slicknav_btn {
+   background-color: var(--clr-black);
+   background-color: var(--clr-primary);
+}
+
+.slicknav_nav {
+   position: fixed;
+   width: 60%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   background: var(--clr-black);
+   background: var(--clr-primary);
+}
+
+.slicknav_nav ul li {
+   /*    display: block; */
 }
 
 /*=============================================
