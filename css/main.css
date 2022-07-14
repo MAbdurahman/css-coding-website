@@ -99,6 +99,7 @@ a {
 }
 
 .btn {
+   letter-spacing: 1px;
    color: #fff;
    background: var(--clr-primary);
    padding: 12px 35px;
@@ -127,6 +128,7 @@ a {
    flex-basis: 60%;
    display: flex;
    padding-top: 6px;
+   letter-spacing: 1px;
 }
 
 .contact_info p {
@@ -229,11 +231,12 @@ a {
 }
 
 #main_menu a {
-   color: #262626;
-   font-size: 18px;
-   text-transform: uppercase;
    padding: 10px 25px;
    display: block;
+   font-size: 18px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: #262626;
 }
 
 #main_menu a:hover {
@@ -257,6 +260,7 @@ a {
 .banner_text {
    flex-basis: 40%;
    order: 1;
+   letter-spacing: 1px;
 }
 
 .banner_text h2 {
@@ -266,4 +270,46 @@ a {
 .banner_image {
    flex-basis: 60%;
    order: 2;
+}
+
+/*=============================================
+         service area
+================================================*/
+#service_area {
+   padding: var(--padding-lg);
+}
+
+#service_area .container.title {
+   display: block;
+   margin-bottom: 32px;
+   letter-spacing: 1px;
+}
+
+#service_area .container {
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+}
+
+#service_area h2 {
+   font-size: 35px;
+   margin-bottom: 20px;
+}
+
+#service_area h3 {
+   font-size: 25px;
+   letter-spacing: 1px;
+}
+
+.child_service {
+   padding: 20px;
+   border: 1px solid rgb(236, 233, 233);
+   box-shadow: 0 0 10px rgb(236, 233, 233);
+   flex-basis: 32%;
+}
+
+.child_service i {
+   color: var(--clr-primary);
+   font-size: 48px;
+   padding: 35px 0 15px;
 }
